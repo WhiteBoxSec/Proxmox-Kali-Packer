@@ -1,7 +1,7 @@
 # Proxmox-Kali-Packer
-Packer template for creating Kali cloud-init image. 
+Packer template for creating Kali cloud-init image in Proxmox. 
 
-This is for a Kali cloud-init image on Packer. The main packer file also adds in Tailscale for use on internal penetration tests. 
+This is for a Kali cloud-init image in Proxmox. The main Packer file also adds in Tailscale for use on internal penetration tests or remote access.
 
 ## Usage
 
