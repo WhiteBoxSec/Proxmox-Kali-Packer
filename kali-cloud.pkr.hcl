@@ -132,7 +132,6 @@ build {
             "sudo curl -fsSL https://tailscale.com/install.sh | sh",
             "sudo apt update",
             "sudo apt install tailscale -y",
-            "sudo tailscale up --authkey=${var.tailscale_key}"
         ]
     }
 # Transfer cloud-init config file to VM
