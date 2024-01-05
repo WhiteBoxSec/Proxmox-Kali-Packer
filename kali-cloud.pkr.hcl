@@ -31,7 +31,7 @@ source "proxmox-iso" "kali-full" {
     insecure_skip_tls_verify = true
     
     # VM General Settings
-    node = "WBS-Sec-Server-2"
+    node = "proxmox-server-1"
     vm_id = "830"
     vm_name = "Kali-Packer-Test"
     template_description = "Kali-Packer-Test"
